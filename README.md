@@ -35,9 +35,13 @@ A Spring Boot application for managing employees with JPA and MySQL.
 ```sql
 CREATE TABLE Employee (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
     password VARCHAR(255) NOT NULL,
+    name VARCHAR(100) NOT NULL,
     salary DOUBLE NOT NULL,
     gender VARCHAR(10) NOT NULL,
     age INT NOT NULL
 );
+```
+![Get Screenshot](get.png)  
+![Delete Screenshot](delete.png) 
+
